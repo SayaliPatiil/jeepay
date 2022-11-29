@@ -87,6 +87,7 @@ public class AuthService {
         } catch (AuthenticationException e) {
             log.error("AuthenticationException:", e);
             throw new BizException("认证服务出现异常， 请重试或联系系统管理员！");
+             System.out.println("catch block not empty");
         }
 
         JeeUserDetails jeeUserDetails = (JeeUserDetails) authentication.getPrincipal();

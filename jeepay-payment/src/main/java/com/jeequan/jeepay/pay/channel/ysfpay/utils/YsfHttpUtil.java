@@ -60,6 +60,7 @@ public class YsfHttpUtil {
 	public static String doGet(String url, Map<String, Object> headers, Map<String, Object> params) throws Exception {
 		String getUrl = buildGetUrl(url, params);
 		return doRequest(getUrl, "GET", headers, null);
+		System.out.println("hello");
 	}
 
 	public static String doPost(String url) throws Exception {

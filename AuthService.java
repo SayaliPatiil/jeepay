@@ -61,6 +61,12 @@ public class AuthService {
     private AuthenticationManager authenticationManager;
 
     @Autowired private SysUserService sysUserService;
+    
+    
+    
+    
+    
+    
     @Autowired private SysRoleService sysRoleService;
     @Autowired private SysRoleEntRelaService sysRoleEntRelaService;
     @Autowired private MchInfoService mchInfoService;
